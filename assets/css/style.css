@@ -1,4 +1,4 @@
-/* Universal Selector: Allows you to select all elements on your html to show the same on all browsers. */
+/* Universal Selector: Allows you to select all elements on your html to show the same on the browser. */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -15,12 +15,12 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* this is defining the banner size and layout on the page */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-    
+    /* This is soly encompassing the "seo" in the banner to change it to an off grey color */
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -41,16 +41,7 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* This is defining the top image under the banner */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,6 +49,15 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* makes the paragraphs fond size 16 */
+p {
+    font-size: 16px;
 }
 
 .float-left {
@@ -188,7 +188,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* The bottem of the page. */
 .footer {
     padding: 30px;
     clear: both;
